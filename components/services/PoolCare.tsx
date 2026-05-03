@@ -31,8 +31,8 @@ const PoolCare = () => {
             </p>
           </div>
 
-          <div className="lg:w-1/2 relative">
-            <div className="relative h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
+          <div className="w-full lg:w-1/2 relative">
+            <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/carePool.jpg"
                 alt="Συντήρηση Πισίνας - Mak Pool"
