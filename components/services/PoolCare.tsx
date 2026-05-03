@@ -2,29 +2,29 @@ import Image from "next/image";
 
 const PoolCare = () => {
   return (
-    <section className="py-24 bg-[#F9F9F9]">
+    <section className="py-16 md:py-24 bg-[#F9F9F9]">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col lg:flex-row items-center gap-16">
+        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
 
           <div className="lg:w-1/2">
             {/* <span className="text-[#0762BD] font-bold uppercase tracking-widest text-sm mb-4 block">
               Σταδια για
             </span> */}
-            <span className="text-black font-bold uppercase tracking-widest text-sm mb-4 block">
+            <span className="text-black font-bold uppercase tracking-widest text-xs md:text-sm mb-4 block">
                 Καθαρό Νερό, Ξέγνοιαστες Στιγμές
             </span>
-            <h2 className="text-4xl md:text-5xl font-extrabold text-[#0762BD] mb-8 leading-tight">
+            <h2 className="text-3xl md:text-5xl font-extrabold text-[#0762BD] mb-6 md:mb-8 leading-tight">
               Συντήρηση Πισίνας
             </h2>
-            <p className="text-lg text-gray-600 leading-relaxed mb-6 text-justify">
+            <p className="text-lg text-gray-600 leading-relaxed mb-6 text-left lg:text-justify">
               Η MakPool προσφέρει μια ολοκληρωμένη γκάμα εγκεκριμένων χημικών προϊόντων
               και σύγχρονων μηχανημάτων για την άριστη επεξεργασία του νερού της πισίνας σας.
               Από τη φίλτρανση και την απολύμανση, μέχρι την απαλκαλίωση και την αφαλάτωση,
               διασφαλίζουμε κρυστάλλινο και υγιεινό νερό, πάντα σε προσιτές τιμές.
             </p>
-            <p className="text-lg text-gray-600 leading-relaxed text-justify">
+            <p className="text-lg text-gray-600 leading-relaxed text-left lg:text-justify">
               Πέρα από τα προϊόντα, παρέχουμε εξειδικευμένες υπηρεσίες συντήρησης πισίνας,
-              ώστε να παραμένει σε άριστη κατάσταση καθ' όλη τη διάρκεια του χρόνου.
+              ώστε να παραμένει σε άριστη κατάσταση καθ&apos; όλη τη διάρκεια του χρόνου.
               Η έμπειρη ομάδα μας είναι έτοιμη να καλύψει κάθε ανάγκη, από τον τακτικό
               καθαρισμό και την επιθεώρηση, έως την επισκευή και την αντικατάσταση
               εξαρτημάτων, προσφέροντάς σας απόλυτη ηρεμία.
