@@ -87,9 +87,9 @@ const Construction = () => {
           </div>
 
           <div className="w-full lg:w-1/2 relative">
-            <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
+            <div className="relative h-[400px] sm:h-[400px] lg:h-[700px] w-full rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/gallery1.jpg"
+                src="/constraction.jpg"
                 alt="Κατασκεύη Πισίνας - Mak Pool"
                 fill
                 className="object-cover"

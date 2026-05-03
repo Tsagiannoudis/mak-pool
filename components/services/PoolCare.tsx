@@ -30,12 +30,12 @@ const PoolCare = () => {
               εξαρτημάτων, προσφέροντάς σας απόλυτη ηρεμία.
             </p>
           </div>
-          
+
           <div className="lg:w-1/2 relative">
             <div className="relative h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/gallery1.jpg"
-                alt="Ποιοι Είμαστε - Mak Pool"
+                src="/carePool.jpg"
+                alt="Συντήρηση Πισίνας - Mak Pool"
                 fill
                 className="object-cover"
               />
