@@ -5,19 +5,19 @@ const WhoWeAre = () => {
     <section className="py-24 bg-white">
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center gap-16">
-          <div className="lg:w-1/2 relative">
-            <div className="relative h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
+          <div className="w-full lg:w-1/2 relative">
+            <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/gallery1.jpg"
+                src="/ourCompany.jpg"
                 alt="Ποιοι Είμαστε - Mak Pool"
                 fill
                 className="object-cover"
               />
             </div>
-            <div className="absolute -bottom-6 -right-6 bg-[#0762BD] text-white p-8 rounded-2xl hidden md:block shadow-xl">
+            <div className="absolute -bottom-4 right-4 md:-bottom-6 md:-right-6 bg-[#0762BD] text-white p-5 md:p-8 rounded-2xl shadow-xl">
               <p className="text-4xl font-bold">10+</p>
               <p className="text-sm uppercase tracking-wider">
-                Χρόνια Εμπειρίας
+                Χρόνια
               </p>
             </div>
           </div>
