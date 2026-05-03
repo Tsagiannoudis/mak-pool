@@ -14,7 +14,7 @@ const WhoWeAre = () => {
                 className="object-cover"
               />
             </div>
-            <div className="absolute -bottom-6 -right-6 bg-[#8a34c4] text-white p-8 rounded-2xl hidden md:block shadow-xl">
+            <div className="absolute -bottom-6 -right-6 bg-[#0762BD] text-white p-8 rounded-2xl hidden md:block shadow-xl">
               <p className="text-4xl font-bold">10+</p>
               <p className="text-sm uppercase tracking-wider">
                 Χρόνια Εμπειρίας
@@ -22,11 +22,11 @@ const WhoWeAre = () => {
             </div>
           </div>
           <div className="lg:w-1/2">
-            <span className="text-[#8a34c4] font-bold uppercase tracking-widest text-sm mb-4 block">
+            <span className="text-[#0762BD] font-bold uppercase tracking-widest text-sm mb-4 block">
               Η Εταιρεία μας
             </span>
             <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-8 leading-tight">
-              Σχετικά με μάς
+              Σχετικά με εμάς
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
               Η Mak Pool είναι μια εταιρεία κατασκευής και συντήρησης που

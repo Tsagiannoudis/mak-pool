@@ -21,7 +21,7 @@ const HeroSectionAbout = () => {
           </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-6 text-center">
+      <div className="relative z-10 container mx-auto px-6 text-center mt-25">
         <div className="max-w-4xl mx-auto">
           <span className="inline-block py-2 px-6 rounded-full bg-white/10 backdrop-blur-md text-white text-sm font-semibold mb-8 uppercase tracking-widest border border-white/20">
             Η Ιστορία μας
