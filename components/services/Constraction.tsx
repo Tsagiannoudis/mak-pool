@@ -7,10 +7,10 @@ const Construction = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
           <div className="lg:w-1/2">
             <span className="text-black font-bold uppercase tracking-widest text-xs md:text-sm mb-4 block">
-              Η Καρδιά της Ασφαλούς Λειτουργίας
+              Από το Όνειρο στην Υλοποίηση
             </span>
             <h2 className="text-3xl md:text-5xl font-extrabold text-[#0762BD] mb-6 md:mb-8 leading-tight">
-              Κατασκεύη πισίνας
+              Κατασκευή πισίνας
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed mb-6 text-left lg:text-justify">
               Δεν είστε σίγουροι για το είδος της κατασκευής πισίνας που πρέπει να επιλέξετε; Είμαστε εδώ για να σας βοηθήσουμε. Πριν κάνετε το άλμα προς την κατασκευή πισίνας, πρέπει να θέσετε στον εαυτό σας ορισμένες ερωτήσεις. Σκοπεύετε να περνάτε χρόνο με την οικογένεια και τους φίλους σας σε αυτήν; 

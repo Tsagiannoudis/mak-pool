@@ -7,12 +7,12 @@ import Link from "next/link";
 const HeroSectionAbout = () => {
  
   return (
-    <section className="relative min-h-screen w-full flex items-center justify-center overflow-hidden">
+    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
       {/* Background Slider */}
       <div className="absolute inset-0 z-0">
             <Image
-              src="/heroHome3.jpg"
-              alt="Mak Pool Project"
+              src={"/heroHome3.jpg"}
+              alt={`Mak Pool Project`}
               fill
               className="object-cover"
             />
@@ -21,8 +21,9 @@ const HeroSectionAbout = () => {
           </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-6 text-center mt-20 md:mt-25">
+      <div className="relative z-10 container mx-auto px-6 text-center mt-25">
         <div className="max-w-4xl mx-auto">
+          
           <span className="inline-block py-2 px-6 rounded-full bg-white/10 backdrop-blur-md text-white text-sm font-semibold mb-8 uppercase tracking-widest border border-white/20">
             Η Ιστορία μας
           </span>
@@ -34,6 +35,7 @@ const HeroSectionAbout = () => {
             Ολοκληρωμένες λύσεις κατασκευής, διακόσμησης και συντήρησης πισίνας. 
             Η τεχνογνωσία συναντά την υψηλή αισθητική.
           </p>
+
           <div className="flex flex-wrap justify-center gap-6">
             <Link
               href="/contact"
@@ -48,6 +50,7 @@ const HeroSectionAbout = () => {
               Δείτε τις υπηρεσίες
             </Link>
           </div>
+
         </div>
       </div>
     </section>
