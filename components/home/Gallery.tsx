@@ -11,7 +11,7 @@ const Gallery = () => {
         { id: 5, src: "/gallery5.jpg", alt: "Πισίνα 5" }, 
         { id: 6, src: "/gallery6.jpg", alt: "Πισίνα 6" }, 
         { id: 7, src: "/gallery7.jpg", alt: "Πισίνα 7" }, 
-        { id: 8, src: "/gallery8.jpg", alt: "Πισίνα 8" }, 
+        { id: 8, src: "/gallery1.jpg", alt: "Πισίνα 8" }, 
     ];
 
     const [selectedImage, setSelectedImage] = useState<{ src: string; alt: string } | null>(null);
