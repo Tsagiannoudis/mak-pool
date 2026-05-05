@@ -11,7 +11,7 @@ const HeroSectionAbout = () => {
       {/* Background Slider */}
       <div className="absolute inset-0 z-0">
             <Image
-              src={"/heroHome3.jpg"}
+              src={"/heroAbout.jpg"}
               alt={`Mak Pool Project`}
               fill
               className="object-cover"

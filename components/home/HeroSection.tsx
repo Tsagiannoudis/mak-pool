@@ -7,6 +7,7 @@ import { useState, useEffect } from "react";
 const images = [
   "/heroHome1.jpg",
   "/heroHome2.jpg",
+  "/heroHome3.jpg",
 ];
 
 const HeroSection = () => {
