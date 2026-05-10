@@ -103,7 +103,7 @@ const PLantRoom = () => {
                 className="object-cover"
               />
             </div>
-            <div className="absolute -bottom-4 right-4 md:-bottom-6 md:-right-6 bg-[#7342A5] text-white p-5 md:p-8 rounded-2xl shadow-xl">
+            <div className="absolute -bottom-4 right-4 md:-bottom-6 md:-right-6 bg-[#056ec9] text-white p-5 md:p-8 rounded-2xl shadow-xl">
               <p className="text-2xl font-bold text-right">Υλικά</p>
               <p className="text-sm uppercase tracking-wider">
                 Υψηλής Ποιότητας

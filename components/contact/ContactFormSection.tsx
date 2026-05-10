@@ -92,7 +92,7 @@ const ContactFormSection = () => {
                 <div className="md:col-span-2 mt-4">
                   <button 
                     type="submit"
-                    className="w-full bg-[#0762BD] hover:bg-[#0a7bec] text-white font-bold py-5 rounded-xl transition-all shadow-lg hover:scale-[1.02] active:scale-95"
+                    className="w-full bg-[#056ec9] hover:bg-[#0a7bec] text-white font-bold py-5 rounded-xl transition-all shadow-lg hover:scale-[1.02] active:scale-95"
                   >
                     Αποστολή Μηνύματος
                   </button>

@@ -13,9 +13,9 @@ const Footer = () => {
           <div className="flex flex-col gap-0">
             <Link href="/" className="inline-block transition-transform hover:scale-105">
               <Image
-                src="/mak-Pool-Logo.png"
+                src="/malLogo.png"
                 alt="makpool logo"
-                width={190}
+                width={240}
                 height={68}
                 priority
                 className=" " // Μετατρέπει το logo σε λευκό για το dark background
@@ -28,7 +28,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-[#7342A5] font-bold mb-8 uppercase tracking-widest text-xs">Πλοήγηση</h4>
+            <h4 className="text-[#056ec9] font-bold mb-8 uppercase tracking-widest text-xs">Πλοήγηση</h4>
             <ul className="space-y-4">
               {NavLinksMainData.map((item) => (
                 <li key={item.href}>
@@ -46,7 +46,7 @@ const Footer = () => {
 
           {/* Contact Details & Info */}
           <div>
-            <h4 className="text-[#7342A5] font-bold mb-8 uppercase tracking-widest text-xs">Επικοινωνία</h4>
+            <h4 className="text-[#056ec9] font-bold mb-8 uppercase tracking-widest text-xs">Επικοινωνία</h4>
             <ul className="space-y-4 text-sm">
               <li className="flex gap-4">
                 <svg className="w-5 h-5 text-[#0762BD] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -80,7 +80,7 @@ const Footer = () => {
 
           {/* Working Hours or Short CTA */}
           <div>
-            <h4 className="text-[#7342A5] font-bold mb-8 uppercase tracking-widest text-xs">Ωράριο Λειτουργίας</h4>
+            <h4 className="text-[#056ec9] font-bold mb-8 uppercase tracking-widest text-xs">Ωράριο Λειτουργίας</h4>
             <ul className="space-y-3 text-sm">
               <li className="flex justify-between border-b border-zinc-800 pb-2">
                 <span>Δευτέρα - Παρασκευή</span>
@@ -101,7 +101,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-10 border-t border-zinc-900 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-xs text-zinc-500">
-            © {currentYear} Mak Pool. Με επιφύλαξη παντός δικαιώματος.
+            © {currentYear} Mak Pool.
             <span className="mx-2">|</span>
             Powered by tSagian Projects
           </p>

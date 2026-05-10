@@ -29,7 +29,7 @@ const ContactHero = () => {
         <div className="flex flex-wrap justify-center gap-6 mt-10">
             <Link
               href="/services"
-              className="bg-[#7342A5] hover:bg-[#0762BD] text-white px-10 py-5 rounded-full font-bold transition-all shadow-2xl hover:scale-105 active:scale-95"
+              className="bg-[#056ec9] hover:bg-[#0762BD] text-white px-10 py-5 rounded-full font-bold transition-all shadow-2xl hover:scale-105 active:scale-95"
             >
               Δείτε τις υπηρεσίες
             </Link>

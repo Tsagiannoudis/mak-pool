@@ -32,7 +32,7 @@ const CtaHomeSection = () => {
                         <div className="flex-shrink-0 w-full lg:w-auto text-center">
                             <Link 
                                 href="/contact" 
-                                className="inline-block bg-[#7342A5] text-white hover:bg-zinc-100 hover:text-[#7342A5] px-10 py-5 rounded-full font-bold text-lg transition-all shadow-lg hover:scale-105 active:scale-95"
+                                className="inline-block bg-[#056ec9] text-white hover:bg-zinc-100 hover:text-[#056ec9] px-10 py-5 rounded-full font-bold text-lg transition-all shadow-lg hover:scale-105 active:scale-95"
                             >
                                 Επικοινωνήστε τώρα
                             </Link>

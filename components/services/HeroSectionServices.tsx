@@ -31,7 +31,7 @@ const HeroSectionServices = () => {
           <div className="flex flex-wrap justify-center gap-6">
             <Link
               href="/contact"
-              className="bg-[#7342A5] hover:bg-[#064e96] text-white px-10 py-5 rounded-full font-bold transition-all shadow-2xl hover:scale-105 active:scale-95"
+              className="bg-[#056ec9] hover:bg-[#064e96] text-white px-10 py-5 rounded-full font-bold transition-all shadow-2xl hover:scale-105 active:scale-95"
             >
               Ξεκινήστε το έργο σας
             </Link>
