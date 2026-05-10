@@ -16,7 +16,7 @@ const ExperienceAbout = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Card 1 */}
           <div className="bg-white p-10 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 group">
-            <div className="w-14 h-14 bg-purple-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#0762BD] transition-colors duration-300">
+            <div className="w-14 h-14 bg-purple-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#7342A5] transition-colors duration-300">
               <svg
                 className="w-7 h-7 text-[#0762BD] group-hover:text-white"
                 fill="none"
@@ -42,7 +42,7 @@ const ExperienceAbout = () => {
 
           {/* Card 2 */}
           <div className="bg-white p-10 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 group">
-            <div className="w-14 h-14 bg-purple-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#0762BD] transition-colors duration-300">
+            <div className="w-14 h-14 bg-purple-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#7342A5] transition-colors duration-300">
               <svg
                 className="w-7 h-7 text-[#0762BD] group-hover:text-white"
                 fill="none"
@@ -68,7 +68,7 @@ const ExperienceAbout = () => {
 
           {/* Card 3 */}
           <div className="bg-white p-10 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 group">
-            <div className="w-14 h-14 bg-purple-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#0762BD] transition-colors duration-300">
+            <div className="w-14 h-14 bg-purple-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#7342A5] transition-colors duration-300">
               <svg
                 className="w-7 h-7 text-[#0762BD] group-hover:text-white"
                 fill="none"

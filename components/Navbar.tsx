@@ -15,9 +15,9 @@ const Navbar = () => {
       <nav className="container mx-auto flex justify-between items-center px-6 py-3">
         <Link href="/" className="hover:opacity-80 transition-opacity">
           <Image
-            src="/makpoolLogo.png"
+            src="/mak-Pool-Logo.png"
             alt="makpool logo"
-            width={180}
+            width={250}
             height={54}
             priority
           />
@@ -31,7 +31,7 @@ const Navbar = () => {
                 href={link.href}
                 className={`px-4 py-2 rounded-xl text-sm font-medium transition-all duration-200 ${
                   pathname === link.href
-                    ? "bg-[#0762BD] text-white shadow-md"
+                    ? "bg-[#7342A5] text-white shadow-md"
                     : "hover:bg-gray-200 text-gray-700"
                 }`}
               >
